@@ -1,0 +1,229 @@
+body {
+    color: #262626;
+}
+.wrapper {
+    height: auto;
+    margin: 0 auto;
+    width: 1920px;
+}
+/*Header*/
+header {
+    float: left;
+    background-color: #f6f6f6;
+    height: 1095px;
+    width: 100%;
+}
+header img {
+    float: left;
+    margin: 225px 0 0 124px;
+}
+.txt {
+    height: 1000px;
+    float: left;
+    padding: 150px 0 0 125px;
+    width: 760px;
+}
+header .txt p:first-child span:first-child {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 22px;
+    letter-spacing: 5px;
+    padding-left: 150px;
+}
+header .txt p:first-child span:nth-child(2) {
+    display: block;
+    font-family: 'Museo Sans Cyrl 100';
+    font-size: 45px;
+    letter-spacing: 10px;
+    padding: 15px 0 140px 70px;
+}
+header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+    display: block;
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+    display: block;
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    padding-bottom: 70px;
+}
+/*Adaptive*/
+@media (min-width: 1280px) and (max-width: 1920px){
+    .wrapper {
+        width: 1280px;
+    }
+    header img {
+        margin: 200px 0 0 50px;
+    }
+    .txt {
+        height: 850px;
+        padding: 100px 0 0 50px;
+        width: 600px;
+    }
+}
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .wrapper {
+        width: 1080px;
+    }
+    header {
+        height: 850px;
+    }
+    header img {
+        margin: 50px 0 0 20px;
+    }
+    .txt {
+        height: 780px;
+        padding: 50px 0 0 20px;
+        width: 500px;
+    }
+    header .txt p:first-child span:nth-child(2) {
+        padding: 10px 0 50px 70px;
+    }
+    header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+        padding-bottom: 10px;
+    }
+    header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+        padding-bottom: 40px;
+    }
+}
+@media (min-width: 960px) and (max-width: 1080px) {
+    .wrapper {
+        width: 960px;
+    }
+    header {
+        height: 700px;
+    }
+    header img {
+        margin: 10px 0 0 10px;
+        width: 450px;
+    }
+    .txt {
+        height: 675px;
+        padding: 10px 0 0 10px;
+        width: 470px;
+    }
+    header .txt p:first-child span:nth-child(2) {
+        padding: 10px 0 20px 70px;
+    }
+    header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+        font-size: 14px;
+        line-height: 1.7;
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+    .wrapper {
+        width: 640px;
+    }
+    header {
+        height: 680px;
+    }
+    header img {
+        margin: 10px 0 0 10px;
+        width: 300px;
+    }
+    .txt {
+        height: 660px;
+        padding: 10px 0 0 10px;
+        width: 300px;
+    }
+    header .txt p:first-child span:first-child {
+        font-size: 20px;
+        letter-spacing: 4px;
+        padding-left: 80px;
+    }
+    header .txt p:first-child span:nth-child(2) {
+        font-size: 40px;
+        letter-spacing: 10px;
+        padding: 10px 0 20px 30px;
+    }
+    header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 480px) and (max-width: 640px) {
+    .wrapper {
+        width: 480px;
+    }
+    header {
+        height: 780px;
+    }
+    header img {
+        margin: 5px 0 0 5px;
+        width: 230px;
+    }
+    .txt {
+        height: 770px;
+        padding: 5px 0 0 5px;
+        width: 230px;
+    }
+    header .txt p:first-child span:first-child {
+        font-size: 15px;
+        letter-spacing: 3px;
+        padding-left: 60px;
+    }
+    header .txt p:first-child span:nth-child(2) {
+        font-size: 30px;
+        letter-spacing: 8px;
+        padding: 10px 0 10px 10px;
+    }
+    header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .wrapper {
+        width: 320px;
+    }
+    header {
+        height: 1060px;
+    }
+    header img {
+        margin: 8px 8px 0 8px;
+        width: 300px;
+    }
+    .txt {
+        height: auto;
+        padding: 5px 0 0 5px;
+        width: 310px;
+    }
+    header .txt p:first-child span:first-child {
+        font-size: 15px;
+        letter-spacing: 3px;
+        padding-left: 100px;
+    }
+    header .txt p:first-child span:nth-child(2) {
+        font-size: 30px;
+        letter-spacing: 8px;
+        padding: 10px 0 10px 40px;
+    }
+    header .txt p:nth-child(2) span:first-child, header .txt p:nth-child(3) span:first-child {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    header .txt p:nth-child(2) span:nth-child(2), header .txt p:nth-child(3) span:nth-child(2) {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 12px;
+    }
+}

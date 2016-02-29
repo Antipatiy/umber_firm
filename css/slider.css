@@ -1,0 +1,30 @@
+/*Slider*/
+.my-slider {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    height: auto;
+    float: left;
+    width: 100%;
+}
+.slide p {
+    text-align: center;
+    font-family: 'Museo Sans Cyrl 100';
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.slide p span {
+    font-family: 'Museo Sans Cyrl 900';
+}
+/*Adaptive*/
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .my-slider {
+        margin: 0 0 0 60px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+
+}
